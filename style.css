@@ -137,5 +137,26 @@ ul.main-menu li a.active {
   display:block;
 }
 
+/* publication */
+.publication{
 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px; padding: 10px; 
+    border: 2px solid rgba(151, 151, 171, 0.646);
+}
+
+tag {
+            
+    height: 15px;
+    background-color: #ffffff; 
+    border: 2px solid #348dfe ;
+    border-radius: 5px; 
+    padding: 5px;
+    display: inline-block;
+
+    text-align: center;  
+    line-height: 15px;
+    color: #348dfe;
+
+}
 
