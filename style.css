@@ -168,4 +168,16 @@ test{
   color: #00008B;
 }
 
+.img-p{
+    float: left; 
+    margin-right: 10px;
+    width: 100px; 
+    height: auto;
+}
 
+.box-p{
+    display: inline-block; 
+    border: 2px solid rgba(151, 151, 171, 0.646); 
+    padding: 10px;
+    border-radius: 10px; padding: 10px; 
+}
