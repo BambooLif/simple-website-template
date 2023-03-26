@@ -182,3 +182,56 @@ test{
     padding: 10px;
     border-radius: 10px; padding: 10px; 
 }
+
+
+  /* 样式表中设置父DIV框的宽度和边距 */
+      .member-container {
+        width: 100%;
+        margin: auto;
+      }
+
+      /* 样式表中设置每个子DIV框的宽度和边距 */
+      .member {
+        width: 30%;
+        margin: 10px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
+
+      /* 样式表中设置图像的大小和边距 */
+      .member img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+      }
+
+      /* 样式表中设置名字和简介文本框的大小和边距 */
+      .member input[type="text"] {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+
+      .member textarea {
+        width: 100%;
+        height: 80px;
+      }
+
+ 
+    .member-position{
+        font-size: 10px;
+        font-weight: 100;
+        margin-top: 10px;
+      }
+
+    .member-name{
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+    .member-introduction{
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 5px;
+      }
